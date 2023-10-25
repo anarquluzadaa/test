@@ -1,0 +1,43 @@
+#banner{
+width: 100%;
+height: 600px;
+background-image: url('../img/unsplash_ndN00KmbJ1c.png');
+background-repeat: no-repeat;
+background-size: cover;
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+    .logo{
+        p{
+         font-size: 18px;   
+         font-style:normal ;
+         font-weight: 700;
+         line-height: 25px;
+         font-family: $fond;
+         color: $primaryColor;
+         span{
+          color: $yellow;
+          font-family:'Poppins',sans-serif;;
+         }
+      
+        }
+    }
+    .navitems{
+        
+        border: 2px solid red;
+        ul{
+            display: flex;
+           
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+}
